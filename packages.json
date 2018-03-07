@@ -229,7 +229,7 @@
       "record",
       "typelevel-prelude"
     ],
-    "repo": "git://github.com/justinwoo/purescript-chocopie.git",
+    "repo": "https://github.com/justinwoo/purescript-chocopie.git",
     "version": "v1.0.0"
   },
   "codec": {
@@ -1780,14 +1780,15 @@
   },
   "simple-json": {
     "dependencies": [
-      "prelude",
       "foreign-generic",
-      "typelevel-prelude",
+      "nullable",
+      "prelude",
       "record",
-      "nullable"
+      "typelevel-prelude",
+      "variant"
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "smolder": {
     "dependencies": [
@@ -1813,7 +1814,7 @@
       "record",
       "typelevel-prelude"
     ],
-    "repo": "git://github.com/sharkdp/purescript-sparkle.git",
+    "repo": "https://github.com/sharkdp/purescript-sparkle.git",
     "version": "v4.2.0"
   },
   "spec": {
