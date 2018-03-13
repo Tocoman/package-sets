@@ -303,7 +303,7 @@
       "prelude",
       "unsafe-coerce"
     ],
-    "repo": "git://github.com/throughnothing/purescript-crypt-nacl.git",
+    "repo": "https://github.com/throughnothing/purescript-crypt-nacl.git",
     "version": "v0.3.0"
   },
   "crypto": {
@@ -491,7 +491,7 @@
       "functions",
       "prelude"
     ],
-    "repo": "git://github.com/menelaos/purescript-encoding.git",
+    "repo": "https://github.com/menelaos/purescript-encoding.git",
     "version": "v0.0.4"
   },
   "enums": {
@@ -554,6 +554,15 @@
     ],
     "repo": "https://github.com/nkly/purescript-express.git",
     "version": "v0.6.4"
+  },
+  "ffi-props": {
+    "dependencies": [
+      "eff",
+      "prelude",
+      "record"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-ffi-props.git",
+    "version": "v0.1.0"
   },
   "filterable": {
     "dependencies": [
@@ -1143,6 +1152,16 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-machines.git",
     "version": "v4.0.0"
+  },
+  "makkori": {
+    "dependencies": [
+      "functions",
+      "node-http",
+      "prelude",
+      "record"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-makkori.git",
+    "version": "v0.1.0"
   },
   "maps": {
     "dependencies": [
@@ -1780,6 +1799,15 @@
     "repo": "https://github.com/purescript/purescript-record.git",
     "version": "v0.2.6"
   },
+  "record-extra": {
+    "dependencies": [
+      "lists",
+      "record",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-record-extra.git",
+    "version": "v0.3.0"
+  },
   "reflection": {
     "dependencies": [
       "unsafe-coerce",
@@ -2125,6 +2153,19 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-these.git",
     "version": "v3.1.0"
+  },
+  "toppokki": {
+    "dependencies": [
+      "aff-promise",
+      "eff",
+      "functions",
+      "node-buffer",
+      "node-http",
+      "prelude",
+      "record"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-toppokki.git",
+    "version": "v0.2.0"
   },
   "transformers": {
     "dependencies": [
