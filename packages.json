@@ -229,7 +229,7 @@
       "record",
       "typelevel-prelude"
     ],
-    "repo": "git://github.com/justinwoo/purescript-chocopie.git",
+    "repo": "https://github.com/justinwoo/purescript-chocopie.git",
     "version": "v1.0.0"
   },
   "codec": {
@@ -528,6 +528,15 @@
     ],
     "repo": "https://github.com/nkly/purescript-express.git",
     "version": "v0.6.2"
+  },
+  "ffi-props": {
+    "dependencies": [
+      "eff",
+      "prelude",
+      "record"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-ffi-props.git",
+    "version": "v0.1.0"
   },
   "filterable": {
     "dependencies": [
@@ -1108,6 +1117,16 @@
     "repo": "https://github.com/purescript-contrib/purescript-machines.git",
     "version": "v4.0.0"
   },
+  "makkori": {
+    "dependencies": [
+      "functions",
+      "node-http",
+      "prelude",
+      "record"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-makkori.git",
+    "version": "v0.1.0"
+  },
   "maps": {
     "dependencies": [
       "arrays",
@@ -1190,12 +1209,10 @@
   "milkis": {
     "dependencies": [
       "aff-promise",
-      "http-methods",
-      "node-http",
       "prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-milkis.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "minibench": {
     "dependencies": [
@@ -1915,7 +1932,7 @@
       "record",
       "typelevel-prelude"
     ],
-    "repo": "git://github.com/sharkdp/purescript-sparkle.git",
+    "repo": "https://github.com/sharkdp/purescript-sparkle.git",
     "version": "v4.2.0"
   },
   "spec": {
@@ -2087,6 +2104,19 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-these.git",
     "version": "v3.0.0"
+  },
+  "toppokki": {
+    "dependencies": [
+      "aff-promise",
+      "eff",
+      "functions",
+      "node-buffer",
+      "node-http",
+      "prelude",
+      "record"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-toppokki.git",
+    "version": "v0.2.0"
   },
   "transformers": {
     "dependencies": [
