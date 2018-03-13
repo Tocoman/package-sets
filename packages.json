@@ -529,6 +529,15 @@
     "repo": "https://github.com/nkly/purescript-express.git",
     "version": "v0.6.2"
   },
+  "ffi-props": {
+    "dependencies": [
+      "eff",
+      "prelude",
+      "record"
+    ],
+    "repo": "git://github.com/justinwoo/purescript-ffi-props.git",
+    "version": "v0.1.0"
+  },
   "filterable": {
     "dependencies": [
       "foldable-traversable",
@@ -2087,6 +2096,19 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-these.git",
     "version": "v3.0.0"
+  },
+  "toppokki": {
+    "dependencies": [
+      "aff-promise",
+      "eff",
+      "functions",
+      "node-buffer",
+      "node-http",
+      "prelude",
+      "record"
+    ],
+    "repo": "git://github.com/justinwoo/purescript-toppokki.git",
+    "version": "v0.2.0-pre"
   },
   "transformers": {
     "dependencies": [
