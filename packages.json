@@ -368,18 +368,18 @@
     "repo": "https://github.com/paf31/purescript-day.git",
     "version": "v9.2.0"
   },
-  "decimals": {
-    "dependencies": [
-      "maybe"
-    ],
-    "repo": "https://github.com/sharkdp/purescript-decimals.git",
-    "version": "v3.0.0"
-  },
   "debug": {
     "dependencies": [
       "prelude"
     ],
     "repo": "https://github.com/garyb/purescript-debug.git",
+    "version": "v3.0.0"
+  },
+  "decimals": {
+    "dependencies": [
+      "maybe"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-decimals.git",
     "version": "v3.0.0"
   },
   "distributions": {
@@ -561,6 +561,15 @@
     ],
     "repo": "https://github.com/nkly/purescript-express.git",
     "version": "v0.6.4"
+  },
+  "ffi-props": {
+    "dependencies": [
+      "eff",
+      "prelude",
+      "record"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-ffi-props.git",
+    "version": "v0.1.0"
   },
   "filterable": {
     "dependencies": [
@@ -1151,6 +1160,16 @@
     "repo": "https://github.com/purescript-contrib/purescript-machines.git",
     "version": "v4.0.0"
   },
+  "makkori": {
+    "dependencies": [
+      "functions",
+      "node-http",
+      "prelude",
+      "record"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-makkori.git",
+    "version": "v0.1.0"
+  },
   "maps": {
     "dependencies": [
       "arrays",
@@ -1233,10 +1252,11 @@
   "milkis": {
     "dependencies": [
       "aff-promise",
-      "prelude"
+      "prelude",
+      "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-milkis.git",
-    "version": "v4.0.1"
+    "version": "v5.0.2"
   },
   "minibench": {
     "dependencies": [
@@ -1794,6 +1814,18 @@
     "repo": "https://github.com/purescript-contrib/purescript-react.git",
     "version": "v5.1.0"
   },
+  "react-basic": {
+    "dependencies": [
+      "eff",
+      "functions",
+      "nullable",
+      "record",
+      "typelevel-prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/lumihq/purescript-react-basic.git",
+    "version": "v0.10.0"
+  },
   "react-dom": {
     "dependencies": [
       "dom",
@@ -1826,15 +1858,13 @@
     "repo": "https://github.com/purescript/purescript-record.git",
     "version": "v0.2.6"
   },
-  "record-fold": {
+  "record-extra": {
     "dependencies": [
-      "arrays",
-      "maybe",
+      "lists",
       "record",
-      "tuples",
       "typelevel-prelude"
     ],
-    "repo": "https://github.com/mbuszka/purescript-record-fold.git",
+    "repo": "https://github.com/justinwoo/purescript-record-extra.git",
     "version": "v0.3.0"
   },
   "reflection": {
@@ -2183,6 +2213,19 @@
     "repo": "https://github.com/purescript-contrib/purescript-these.git",
     "version": "v3.1.0"
   },
+  "toppokki": {
+    "dependencies": [
+      "aff-promise",
+      "eff",
+      "functions",
+      "node-buffer",
+      "node-http",
+      "prelude",
+      "record"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-toppokki.git",
+    "version": "v0.2.0"
+  },
   "transformers": {
     "dependencies": [
       "arrays",
@@ -2227,7 +2270,7 @@
       "type-equality"
     ],
     "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
-    "version": "v2.6.0"
+    "version": "v2.7.0"
   },
   "unfoldable": {
     "dependencies": [
