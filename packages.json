@@ -141,7 +141,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-arrays.git",
-    "version": "v4.2.1"
+    "version": "v4.3.0"
   },
   "assert": {
     "dependencies": [
@@ -527,6 +527,15 @@
     ],
     "repo": "https://github.com/nkly/purescript-express.git",
     "version": "v0.6.2"
+  },
+  "ffi-props": {
+    "dependencies": [
+      "eff",
+      "prelude",
+      "record"
+    ],
+    "repo": "git://github.com/justinwoo/purescript-ffi-props.git",
+    "version": "v0.1.0"
   },
   "filterable": {
     "dependencies": [
