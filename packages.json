@@ -1982,8 +1982,8 @@
       "web-events",
       "web-html"
     ],
-    "repo": "https://github.com/lumihq/purescript-react-basic.git",
-    "version": "v8.0.1"
+    "repo": "https://github.com/justinwoo/purescript-react-basic.git",
+    "version": "keyboard-events"
   },
   "react-basic-hooks": {
     "dependencies": [

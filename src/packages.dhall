@@ -56,4 +56,12 @@ let packages =
       ⫽ ./groups/truqu.dhall
       ⫽ ./groups/zaquest.dhall
 
-in  packages
+in    packages
+    ⫽ { react-basic =
+            packages.react-basic
+          ⫽ { repo =
+                "https://github.com/justinwoo/purescript-react-basic.git"
+            , version =
+                "keyboard-events"
+            }
+      }
